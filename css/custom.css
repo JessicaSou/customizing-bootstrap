@@ -12,6 +12,30 @@
   color: #A04ADD;
 }
 
+h1, .h1 {
+  font-size: 0.052rem;
+}
+
+h2, .h2 {
+  font-size: 2.441rem;
+}
+
+h3, .h3 {
+  font-size: 1.953rem;
+}
+
+h4, .h4 {
+  font-size: 1.563rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -87,7 +111,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-family: "Source Sans 3", sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -230,6 +254,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: "Libre Baskerville", serif;
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -5698,7 +5723,7 @@ textarea.form-control-lg {
   z-index: var(--bs-tooltip-zindex);
   display: block;
   margin: var(--bs-tooltip-margin);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Source Sans 3", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5808,7 +5833,7 @@ textarea.form-control-lg {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: var(--bs-font-sans-serif);
+  font-family: "Source Sans 3", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11867,6 +11892,14 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar-brand {
+  font-family: "Libre Baskerville", serif;
+}
+
+footer {
+  background-color: #181853;
+  color: #f2f2f2;
 }
 
 /*# sourceMappingURL=custom.css.map */
